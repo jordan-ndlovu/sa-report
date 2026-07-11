@@ -8,7 +8,7 @@ Municipal service delivery is slow and opaque. Instead of waiting for official i
 
 ## Status
 
-🚧 Early development — v0.1 (MVP). See [ROADMAP.md](./ROADMAP.md) for what's next.
+🚧 Early development — v0.1  (MVP). See [ROADMAP.md](./ROADMAP.md) for what's next.
 
 ## Tech stack (Phase 1 — zero budget)
 
@@ -20,7 +20,7 @@ Municipal service delivery is slow and opaque. Instead of waiting for official i
 | Auth | None in v0.1 (anonymous reporting) |
 | CI/CD | GitHub Actions |
 
-## Local development
+## Local development.
 
 ```bash
 npm install
