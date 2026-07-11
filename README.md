@@ -1,6 +1,6 @@
 # SA Report
 
-A community platform where South Africans report and track local infrastructure and safety issues — potholes, water leaks, outages, illegal dumping, broken traffic lights, and crime alerts — with no municipality login and no government approval required. Just people helping people.
+A  community platform where South Africans report and track local infrastructure and safety issues — potholes, water leaks, outages, illegal dumping, broken traffic lights, and crime alerts — with no municipality login and no government approval required. Just people helping people.
 
 ## Why
 
