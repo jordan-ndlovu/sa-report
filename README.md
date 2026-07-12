@@ -1,36 +1,111 @@
-# SA Report
+# 🇿🇦 SA-Report
 
-A  community platform where South Africans report and track local infrastructure and safety issues — potholes, water leaks, outages, illegal dumping, broken traffic lights, and crime alerts — with no municipality login and no government approval required. Just people helping people.
+> **Making South African public services simple, accessible, and transparent — built with zero budget and open to everyone.**
 
-## Why
+SA-Report is a community-driven, open-source civic platform that helps South Africans understand and navigate government services from one place.
 
-Municipal service delivery is slow and opaque. Instead of waiting for official integration, SA Report gives residents a public, shareable record of what's broken and how many people are affected — the kind of visibility that gets attention on its own.
+This project is being built in public with one simple goal:
 
-## Status
+**Solve real problems before spending money.**
 
-🚧 Early development — v0.1  (MVP). See [ROADMAP.md](./ROADMAP.md) for what's next.
+Every decision in this project is guided by a **Zero Budget First** philosophy. We use free and open technologies wherever possible, proving that meaningful civic technology can be built without significant funding.
 
-## Tech stack (Phase 1 — zero budget)
+---
 
-| Component | Technology |
-|---|---|
-| Frontend | React + Vite |
-| Hosting | GitHub Pages |
-| Database | Supabase (free tier) |
-| Auth | None in v0.1 (anonymous reporting) |
-| CI/CD | GitHub Actions |
+# 🌍 Why SA-Report?
 
-## Local development.
+Millions of South Africans struggle to find clear, reliable information about government services.
 
-```bash
-npm install
-npm run dev
-```
+Questions like:
 
-## Contributing
+* How do I replace my ID?
+* How do I apply for UIF?
+* Which documents do I need?
+* How do I register a business?
+* How do I report a municipal issue?
 
-This project uses GitHub Issues for task tracking and Pull Requests for all changes, even from a single maintainer, to keep a clean history and enable others to contribute later. See open issues for what's needed next.
+often require searching across multiple government websites.
 
-## License
+SA-Report brings this information together into one simple, searchable platform while always encouraging users to verify important details with the relevant government department.
 
-MIT
+---
+
+# 💡 Our Philosophy
+
+We believe great products don't start with large budgets.
+
+They start by solving real problems.
+
+SA-Report follows a **Zero Budget First** approach:
+
+* ✅ Open source
+* ✅ Built in public
+* ✅ Hosted for free
+* ✅ Community driven
+* ✅ No unnecessary infrastructure
+* ✅ Grow only when people use it
+
+---
+
+# 🚀 Current Technology Stack
+
+| Component       | Technology      |
+| --------------- | --------------- |
+| Frontend        | React + Vite    |
+| Hosting         | GitHub Pages    |
+| Deployment      | GitHub Actions  |
+| Data            | JSON & Markdown |
+| Version Control | GitHub          |
+| Backend         | None (Phase 1)  |
+| Database        | None (Phase 1)  |
+| Authentication  | None (Phase 1)  |
+
+**Monthly hosting cost:** **R0**
+
+---
+
+# 🛣 Project Roadmap
+
+## Phase 1 — Zero Budget
+
+* Government service guides
+* Search functionality
+* Structured knowledge base
+* Mobile-friendly interface
+* GitHub Pages deployment
+
+Everything runs from GitHub.
+
+No servers.
+
+No cloud infrastructure.
+
+No paid services.
+
+---
+
+## Phase 2 — Community Growth
+
+As the project gains users, we'll expand the knowledge base, improve search, and welcome community contributions.
+
+---
+
+## Phase 3 — AI (Future)
+
+Only after validating the project with real users will we explore adding AI-powered features such as natural language search and explanations of public service processes.
+
+---
+
+# 🤝 Contributing
+
+Whether you're a developer, designer, writer, researcher, or simply someone who wants to improve access to public information, your contribution is welcome.
+
+Every improvement—big or small—helps make South African public services easier to understand.
+
+---
+
+# ❤️ Built for South Africa
+
+SA-Report is an independent, open-source community project.
+
+We're proving that impactful civic technology doesn't require a large budget—just a real problem, a committed community, and consistent progress.
