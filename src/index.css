@@ -1,0 +1,151 @@
+:root {
+  /* --- Color tokens --- */
+  --ink: #16232B;          /* deep navy-charcoal — primary text, header/footer */
+  --ink-soft: #3D4B52;      /* secondary text */
+  --paper: #F3F5F3;         /* cool stone-white background, not warm cream */
+  --paper-raised: #FFFFFF;  /* card surfaces */
+  --line: #D8DCD6;          /* hairline borders */
+  --stamp: #B8862B;         /* ochre — the "official stamp" accent */
+  --stamp-dark: #8F6A1F;
+  --green: #1F5C4D;         /* pine/fynbos green — secondary accent */
+  --green-soft: #E4EEEA;
+  --alert: #A63D2F;         /* brick red — used sparingly for urgent notices */
+  --alert-soft: #F5E7E4;
+  --focus: #2E6E9E;
+
+  /* --- Type tokens --- */
+  --font-display: "Roboto Slab", Georgia, serif;
+  --font-body: "Source Sans 3", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 0.5em 0;
+  color: var(--ink);
+}
+
+p { margin: 0 0 1em 0; }
+
+a {
+  color: var(--green);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+a:hover { color: var(--stamp-dark); }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+code, .ref-code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- Signature element: perforated / tear-off divider,
+   evoking a government form or till-slip receipt --- */
+.perforated {
+  border: none;
+  height: 1px;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--line) 0,
+    var(--line) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  margin: 2.5rem 0;
+}
+
+/* --- Signature element: circular "official stamp" badge --- */
+.stamp-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  border-radius: 50%;
+  border: 2px solid var(--stamp);
+  color: var(--stamp-dark);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  transform: rotate(-6deg);
+  background: transparent;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--ink);
+  color: white;
+  padding: 10px 16px;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 12px;
+  top: 12px;
+}
+
+.service-card:hover,
+.service-card:focus-visible {
+  border-color: var(--stamp);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

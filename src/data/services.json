@@ -1,0 +1,230 @@
+[
+  {
+    "id": "id-replacement",
+    "category": "Home Affairs",
+    "code": "DHA-01",
+    "title": "Replace a lost or stolen Smart ID / ID book",
+    "summary": "Report the loss and apply for a replacement identity document.",
+    "whoFor": "Any South African citizen whose ID has been lost, stolen, or damaged.",
+    "documents": [
+      "Sworn affidavit or SAPS case number confirming the loss/theft",
+      "Your original birth certificate (if you have it)",
+      "Proof of residential address (utility bill, lease, or affidavit)",
+      "Passport-style photos (only required at some offices — check first)"
+    ],
+    "steps": [
+      "Report the loss at a police station and get a case number, or complete a sworn affidavit.",
+      "Visit your nearest Home Affairs office and complete Form BI-9 (application for an identity document).",
+      "Have your fingerprints and photo taken at the office.",
+      "Pay the applicable fee (a first replacement may differ in cost from repeat replacements).",
+      "Track your application status using the reference slip you're given, either in person, by SMS, or online."
+    ],
+    "cost": "A fee applies for replacement IDs; first-time IDs for citizens turning 16 are free. Fees change from time to time.",
+    "processingTime": "Typically a few weeks, but can vary significantly by office and season.",
+    "officialLink": "https://www.dha.gov.za/",
+    "tags": ["id", "smart id", "id book", "home affairs", "lost id", "stolen id", "identity document"]
+  },
+  {
+    "id": "uif-application",
+    "category": "Labour",
+    "code": "UIF-01",
+    "title": "Apply for UIF (Unemployment Insurance Fund) benefits",
+    "summary": "Claim unemployment benefits after losing a job, or maternity/illness benefits while employed.",
+    "whoFor": "Employees who have lost their job, are on maternity leave, or are unable to work due to illness, and whose employer contributed to UIF.",
+    "documents": [
+      "13-digit bar-coded ID or Smart ID card",
+      "UI-19 form completed by your last employer",
+      "Proof of registration as a work seeker (for unemployment claims)",
+      "Bank statement not older than 3 months",
+      "Salary schedule / last payslips",
+      "A completed UI-2.8 bank form for payment details"
+    ],
+    "steps": [
+      "Register on the uFiling online portal, or visit your nearest Labour Centre in person.",
+      "Get your employer to complete and submit a UI-19 form declaring your last date of employment.",
+      "Complete the relevant claim form for your situation (unemployment, maternity, illness, adoption, or dependent's benefits).",
+      "Submit supporting documents, including your bank details.",
+      "Follow up periodically (in person or via uFiling) — you generally need to reconfirm continued unemployment roughly every four weeks."
+    ],
+    "cost": "Free to apply. UIF is funded by monthly contributions already deducted from your salary while employed.",
+    "processingTime": "Payments typically begin a few weeks after a complete application, but delays are common if documents are missing.",
+    "officialLink": "https://www.labour.gov.za/",
+    "tags": ["uif", "unemployment", "labour", "maternity benefits", "retrenchment", "job loss"]
+  },
+  {
+    "id": "business-registration",
+    "category": "Business",
+    "code": "CIPC-01",
+    "title": "Register a company or business (CIPC)",
+    "summary": "Register a private company (Pty Ltd) or other business entity with the Companies and Intellectual Property Commission.",
+    "whoFor": "Anyone starting a formal business in South Africa, from a sole proprietor formalising a company to a group of founders.",
+    "documents": [
+      "South African ID or passport (for foreign directors) for all directors/incorporators",
+      "Proposed company name(s), in order of preference",
+      "A registered address for the company",
+      "Payment for the name reservation and registration fees"
+    ],
+    "steps": [
+      "Register for a CIPC customer code and a BizPortal or CIPC eServices account.",
+      "Reserve your company name (optional but recommended) or register with a name based on your registration number.",
+      "Complete the company registration (Form COR14.1) via BizPortal, which can also help you register for tax, UIF, and Compensation Fund at the same time.",
+      "Pay the registration fee.",
+      "Receive your company registration certificate (COR14.3) and registration number once approved."
+    ],
+    "cost": "Company registration fees are low-cost; name reservation carries a small separate fee. BizPortal bundles some registrations for a single combined price.",
+    "processingTime": "Often same-day to a few days when documents are in order.",
+    "officialLink": "https://www.cipc.co.za/",
+    "tags": ["business", "company", "cipc", "register a business", "pty ltd", "bizportal", "entrepreneur"]
+  },
+  {
+    "id": "municipal-issue-reporting",
+    "category": "Municipal Services",
+    "code": "MUN-01",
+    "title": "Report a municipal service issue (water, electricity, roads, refuse)",
+    "summary": "Log a fault or complaint about municipal infrastructure such as water leaks, power outages, potholes, or missed refuse collection.",
+    "whoFor": "Any resident or ratepayer experiencing a service delivery problem in their municipality.",
+    "documents": [
+      "Your municipal account number (if reporting a billing-related fault)",
+      "The exact address or GPS location of the problem",
+      "Photos of the issue, where possible",
+      "A reference number from any earlier report on the same issue"
+    ],
+    "steps": [
+      "Identify the correct municipality for your area and find its official website or app.",
+      "Use the municipality's call centre, official app, website form, or social media channel to log the fault.",
+      "Note the reference or case number you're given — you'll need it to follow up.",
+      "Escalate through your ward councillor's office if the issue is not resolved within a reasonable time.",
+      "For provincial or national roads, report separately to the relevant roads agency rather than the local municipality."
+    ],
+    "cost": "Free to report.",
+    "processingTime": "Varies widely by municipality and issue type — from hours for urgent safety hazards to weeks for infrastructure repairs.",
+    "officialLink": "https://www.gov.za/about-government/contact-directory/provincial-and-local-government",
+    "tags": ["municipality", "water outage", "electricity", "potholes", "refuse collection", "load shedding", "report a fault", "councillor"]
+  },
+  {
+    "id": "birth-certificate",
+    "category": "Home Affairs",
+    "code": "DHA-02",
+    "title": "Register a birth or apply for a birth certificate",
+    "summary": "Register a child's birth (unabridged or abridged) or request a copy of an existing birth certificate.",
+    "whoFor": "Parents registering a new birth, or anyone needing a duplicate or unabridged certificate for themselves or a dependant.",
+    "documents": [
+      "Both parents' ID documents (or the available parent's ID, plus supporting affidavits if one parent is absent)",
+      "Notice of Birth (BI-24) issued by the hospital or clinic where the child was born",
+      "Proof of marriage, if applicable",
+      "Proof of residential address"
+    ],
+    "steps": [
+      "Register the birth within 30 days at a Home Affairs office (free within this period; late registration involves an additional process).",
+      "Complete the birth registration form with both parents present, where possible.",
+      "Collect the unabridged birth certificate once processed, or apply later for a duplicate if the original is lost.",
+      "For late registrations (after 30 days), be prepared for additional verification, which can take considerably longer."
+    ],
+    "cost": "Free within 30 days of birth. Late registration and duplicate certificates carry a fee.",
+    "processingTime": "On-time registrations can be same-day for the notice, with the certificate following; late registrations can take months due to verification.",
+    "officialLink": "https://www.dha.gov.za/",
+    "tags": ["birth certificate", "register a birth", "home affairs", "unabridged certificate", "newborn"]
+  },
+  {
+    "id": "passport-application",
+    "category": "Home Affairs",
+    "code": "DHA-03",
+    "title": "Apply for or renew a South African passport",
+    "summary": "Apply for a new passport or renew an expiring one for travel purposes.",
+    "whoFor": "South African citizens needing a passport for international travel.",
+    "documents": [
+      "Green bar-coded ID book or Smart ID card",
+      "Your current passport, if renewing",
+      "Passport-sized photos (only if your office doesn't capture these digitally)",
+      "Proof of payment for the application fee"
+    ],
+    "steps": [
+      "Book an appointment where available, or visit a Home Affairs office that offers passport services.",
+      "Complete the passport application form (BI-73) in person.",
+      "Have your biometrics (photo and fingerprints) captured at the office.",
+      "Pay the applicable fee and keep your receipt with reference number.",
+      "Track the application status online or by SMS using your reference number, and collect your passport once ready."
+    ],
+    "cost": "A standard fee applies; fees are higher for urgent/express applications where available.",
+    "processingTime": "Standard applications typically take a few weeks; express services, where offered, are faster at a higher cost.",
+    "officialLink": "https://www.dha.gov.za/",
+    "tags": ["passport", "travel document", "home affairs", "renew passport"]
+  },
+  {
+    "id": "sassa-grant",
+    "category": "Social Development",
+    "code": "SASSA-01",
+    "title": "Apply for a SASSA social grant",
+    "summary": "Apply for a social grant such as the Older Person's Grant, Disability Grant, Child Support Grant, or SRD grant.",
+    "whoFor": "South African citizens, permanent residents, or refugees who meet the means test and eligibility criteria for a specific grant.",
+    "documents": [
+      "13-digit bar-coded ID or Smart ID card",
+      "Proof of income (or lack thereof) for the means test",
+      "Proof of residential address",
+      "Supporting documents specific to the grant (e.g. child's birth certificate for Child Support, medical assessment for Disability Grant)",
+      "Bank account details for payment"
+    ],
+    "steps": [
+      "Confirm which grant you qualify for and check the current means-test income thresholds.",
+      "Gather the required supporting documents for that specific grant type.",
+      "Apply in person at your nearest SASSA office, or online/via the SASSA app where the specific grant supports it (such as the SRD grant).",
+      "Complete a medical assessment where required, such as for the Disability Grant.",
+      "Wait for the outcome notification and, once approved, collect payment via your chosen payment method."
+    ],
+    "cost": "Free to apply.",
+    "processingTime": "Varies by grant type; some online applications (like SRD) give faster status feedback than in-person applications for other grants.",
+    "officialLink": "https://www.sassa.gov.za/",
+    "tags": ["sassa", "grant", "srd grant", "child support grant", "disability grant", "older person's grant", "social development"]
+  },
+  {
+    "id": "drivers-licence-renewal",
+    "category": "Transport",
+    "code": "DLC-01",
+    "title": "Renew a driver's licence card",
+    "summary": "Renew an expiring or expired driver's licence card at a licensing centre.",
+    "whoFor": "Licensed drivers whose driver's licence card is due to expire or has already expired.",
+    "documents": [
+      "Current driver's licence card",
+      "ID document or Smart ID card",
+      "Recent eye-test results or willingness to complete one on-site",
+      "Passport photos, if required by your specific licensing centre"
+    ],
+    "steps": [
+      "Check your card's expiry date — renewal can usually be done up to a few months in advance.",
+      "Book an appointment at a licensing centre, if the centre requires bookings.",
+      "Complete the renewal application form and pass a basic eye test.",
+      "Have your photo and fingerprints captured.",
+      "Pay the renewal fee and collect a temporary authority to drive while the new card is produced."
+    ],
+    "cost": "A standard renewal fee applies; expired-licence renewals may attract a penalty depending on how overdue they are.",
+    "processingTime": "The temporary authority is usually issued the same day; the physical card can take several weeks to a few months to arrive.",
+    "officialLink": "https://www.gov.za/services/driving-licences/renew-drivers-licence-card",
+    "tags": ["drivers licence", "licence renewal", "transport", "eNaTIS", "driving licence card"]
+  },
+  {
+    "id": "tax-registration",
+    "category": "Tax (SARS)",
+    "code": "SARS-01",
+    "title": "Register for a tax number and file a tax return",
+    "summary": "Get a personal income tax number and understand the basics of filing an annual return with SARS.",
+    "whoFor": "Anyone earning above the tax threshold, starting formal employment, or needing a tax number for other official purposes.",
+    "documents": [
+      "ID document or Smart ID card",
+      "Proof of residential address",
+      "Proof of banking details",
+      "IRP5/IT3(a) certificate(s) from your employer(s) for filing season",
+      "Any other income or deduction certificates (medical aid, retirement annuity, etc.)"
+    ],
+    "steps": [
+      "Register for a tax number via SARS eFiling, the SARS MobiApp, or in person at a SARS branch (many employees are auto-registered when they start working).",
+      "Activate your eFiling profile to submit returns and communicate with SARS online.",
+      "During filing season, gather your IRP5 and other certificates.",
+      "Complete and submit your return via eFiling or the MobiApp, checking the auto-assessment SARS may have already prepared for you.",
+      "Pay any amount owed, or track a refund, through your eFiling profile."
+    ],
+    "cost": "Free to register and to file a standard return.",
+    "processingTime": "Auto-assessments are often issued within days of filing season opening; refunds after manual filing typically take a few weeks if no verification is needed.",
+    "officialLink": "https://www.sars.gov.za/",
+    "tags": ["tax", "sars", "efiling", "tax number", "tax return", "income tax"]
+  }
+]
