@@ -7,9 +7,7 @@ export default function Contribute() {
         Whether you're a developer, designer, writer, researcher, or simply someone who
         wants to improve access to public information, your contribution is welcome.
       </p>
-
       <hr className="perforated" />
-
       <h2>Add or fix a service guide</h2>
       <p>All guides live in one file: <code>src/data/services.json</code>. Each entry follows this shape:</p>
       <pre
@@ -42,28 +40,18 @@ export default function Contribute() {
         Open a pull request with your addition or correction, and include a link to the
         official government source you used, so it can be verified during review.
       </p>
-
       <hr className="perforated" />
-
       <h2>Found something wrong? Tell us — no GitHub account needed</h2>
       <p>
         If a fee, link, or step looks out of date and you don't want to open a
         GitHub issue, that's completely fine — just send a quick email instead:
       </p>
       <p>
-        <a href="mailto:hello@example.com?subject=SA-Report%20correction">
-          hello@example.com
+        <a href="mailto:sareportcontact@gmail.com?subject=SA-Report%20correction">
+          sareportcontact@gmail.com
         </a>
       </p>
-      <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem' }}>
-        <em>
-          Project owner: replace the address above with a real inbox you check
-          (or a free Google Form link) before sharing this page publicly.
-        </em>
-      </p>
-
       <hr className="perforated" />
-
       <h2>Other ways to help</h2>
       <ul style={{ paddingLeft: '20px', lineHeight: 1.8 }}>
         <li>Report outdated fees, links, or processing times as a GitHub issue</li>
@@ -72,9 +60,7 @@ export default function Contribute() {
         <li>Test the search on real questions people ask and tell us what it misses</li>
         <li>Share the project with someone who'd find it useful</li>
       </ul>
-
       <hr className="perforated" />
-
       <p style={{ color: 'var(--ink-soft)' }}>
         This project follows a Zero Budget First philosophy — no infrastructure decisions
         are made until real usage justifies them. See the{' '}
