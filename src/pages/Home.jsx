@@ -3,15 +3,38 @@ import services from '../data/services.json'
 import SearchBar from '../components/SearchBar.jsx'
 import ServiceCard from '../components/ServiceCard.jsx'
 
-function matches(service, query) {
-  if (!query.trim()) return true
-  const q = query.toLowerCase()
-  return (
-    service.title.toLowerCase().includes(q) ||
-    service.summary.toLowerCase().includes(q) ||
-    service.category.toLowerCase().includes(q) ||
-    service.tags.some((tag) => tag.toLowerCase().includes(q))
-  )
+const STOP_WORDS = new Set([
+  'a', 'an', 'the', 'is', 'it', 'to', 'do', 'i', 'me', 'my', 'in', 'on', 'at',
+  'for', 'of', 'and', 'or', 'how', 'can', 'you', 'please', 'help', 'need',
+  'want', 'this', 'that', 'with', 'be', 'am', 'was', 'were', 'than', 'so',
+  'get', 'got', 'just', 'im', "i'm"
+])
+
+function tokenize(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter((word) => word.length > 1 && !STOP_WORDS.has(word))
+}
+
+function scoreService(service, queryWords) {
+  if (queryWords.length === 0) return 1
+
+  const haystack = [
+    service.title,
+    service.summary,
+    service.category,
+    ...service.tags,
+  ]
+    .join(' ')
+    .toLowerCase()
+
+  let score = 0
+  for (const word of queryWords) {
+    if (haystack.includes(word)) score += 1
+  }
+  return score
 }
 
 export default function Home() {
@@ -23,13 +46,15 @@ export default function Home() {
     []
   )
 
-  const results = useMemo(
-    () =>
-      services.filter(
-        (s) => matches(s, query) && (category === 'All' || s.category === category)
-      ),
-    [query, category]
-  )
+  const results = useMemo(() => {
+    const queryWords = tokenize(query)
+    return services
+      .filter((s) => category === 'All' || s.category === category)
+      .map((s) => ({ service: s, score: scoreService(s, queryWords) }))
+      .filter(({ score }) => score > 0)
+      .sort((a, b) => b.score - a.score)
+      .map(({ service }) => service)
+  }, [query, category])
 
   return (
     <>
