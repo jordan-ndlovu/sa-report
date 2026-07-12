@@ -45,6 +45,25 @@ export default function Contribute() {
 
       <hr className="perforated" />
 
+      <h2>Found something wrong? Tell us — no GitHub account needed</h2>
+      <p>
+        If a fee, link, or step looks out of date and you don't want to open a
+        GitHub issue, that's completely fine — just send a quick email instead:
+      </p>
+      <p>
+        <a href="mailto:hello@example.com?subject=SA-Report%20correction">
+          hello@example.com
+        </a>
+      </p>
+      <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem' }}>
+        <em>
+          Project owner: replace the address above with a real inbox you check
+          (or a free Google Form link) before sharing this page publicly.
+        </em>
+      </p>
+
+      <hr className="perforated" />
+
       <h2>Other ways to help</h2>
       <ul style={{ paddingLeft: '20px', lineHeight: 1.8 }}>
         <li>Report outdated fees, links, or processing times as a GitHub issue</li>
